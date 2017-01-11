@@ -1,0 +1,12 @@
+
+on host:
+vagrant hashicorp/precise64
+vagrant up
+
+then, connect
+vagrant ssh
+
+in vm:
+sudo apt-get update
+sudo apt-get upgrade
+
